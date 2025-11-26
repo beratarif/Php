@@ -1,5 +1,5 @@
 <?php
-$baglanti = mysqli_connect("localhost", "root", "root", "test");
+$baglanti = mysqli_connect("localhost", "root", "", "test");
 if (!$baglanti) {
   die("Bağlantı hatası: " . mysqli_connect_errno());
 }
